@@ -39,7 +39,7 @@
   .container-fluid {
       padding: 60px 50px;
   }
-  .bg-grey {
+  .bg-black {
       background-color: black;
   }
   .bg-yellow {
@@ -48,6 +48,10 @@
   .logo-small {
       color: black;
       font-size: 50px;
+  }
+  .logo-medium {
+      color: black;
+      font-size: 100px;
   }
   .logo {
       color: black;
@@ -71,7 +75,7 @@
       border-color: yellow;
   }
   .carousel-indicators li.active {
-      background-color: yellow;
+      background-color: inherit;
   }
   .item h4 {
       font-size: 19px;
@@ -206,7 +210,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">SOBRE NÓS</a></li>
+        <li><a href="#about">SOBRE</a></li>
         <li><a href="#services">DIFERENCIAIS</a></li>
         <li><a href="#portfolio">PRODUTOS</a></li>
         <li><a href="#contact">CONTATO</a></li>
@@ -223,12 +227,12 @@
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
-    <div class="col-sm-8">SOBRE</h2><br>
-      <h4>Surge na WEB a mais nova vitrine virtual de acessórios para seu gadget, a <strong>TUNING-PHONE</strong>. Aqui, você pode encontrar uma vasta gama de opções de acessórios para o seu smartphone! Oferecemos películas de vidro temperado, bumper cases, suporte de mesas, suporte para GPS, fones de ouvido, cabos carregadores e cabos USB.</h4><br>
+    <div class="col-sm-7" align="justify">SOBRE</h2><br>
+      <h3>Surge na WEB a mais nova vitrine virtual BRASILEIRA de acessórios para seu gadget, a <strong>TUNING-PHONE</strong>. Aqui, você pode encontrar uma vasta gama de opções de acessórios para o seu smartphone! Oferecemos películas de vidro temperado, bumper cases, suporte de mesas, suporte para GPS, fones de ouvido, cabos carregadores e cabos USB.</H3><br>
       <p>Mas não queremos parar por aqui, ah não! Em breve, traremos para você mais produtos para "tunar" o seu gagdet! Além de smartphones, disponibilizaremos acessórios para seu tablet e smart watch. Aguarde =)</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-flag logo"></span>
+      <img src="/home/camargo/Documents/tuning-phone/images/background/smart-brasil.jpg" class="img-rounded" alt="Brasil!">
     </div>
   </div>
 </div>
@@ -240,36 +244,36 @@
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-refresh logo-small"></span>
-      <h4>MODERNIDADE</h4>
+      <span class="glyphicon glyphicon-refresh logo-medium"></span>
+      <h3>MODERNIDADE</h3>
       <p>Novidades em acessórios</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>Carinho</h4>
+      <span class="glyphicon glyphicon-heart logo-medium"></span>
+      <h3>APREÇO</h3>
       <p>Amamos o que fazemos</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-usd logo-small"></span>
-      <h4>PREÇO</h4>
+      <span class="glyphicon glyphicon-usd logo-medium"></span>
+      <h3>PREÇO</h3>
       <p>Tudo baratinho</p>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>QUALIDADE</h4>
-      <p>Tudo feito para durar</p>
+      <span class="glyphicon glyphicon-certificate logo-medium"></span>
+      <h3>QUALIDADE</h3>
+      <p>Produtos que duram</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
-      <h4>SATISFAÇÃO</h4>
+      <span class="glyphicon glyphicon-thumbs-up logo-medium"></span>
+      <h3>SATISFAÇÃO</h3>
       <p>Você vai gostar</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>SEGURANÇA</h4>
+      <span class="glyphicon glyphicon-lock logo-medium"></span>
+      <h3>SEGURANÇA</h3>
       <p>Aqui a compra é segura</p>
     </div>
   </div>
@@ -282,108 +286,90 @@
     <h4>Utilize o Mercado Livre para adquirir nossos produtos</h4>
   </div>
   <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
+    <div class="col-sm-3 col-xs-9">
+      <div class="panel panel-default text-center bg-black">
         <div class="panel-heading">
-          <h1>Películas de vidro</h1>
+          <h3>Películas de vidro</h3>
         </div>
         <div class="panel-body">
           <div class="panel-footer">
-            <h3>à partir de R$14,99*</h3>
+            <h4>à partir de </h4><h3>R$14,99*</h3>
             <button class="btn btn-lg">Eu quero!</button>
           </div>
 
           <div id="myCarousel-0" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel-0" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel-0" data-slide-to="1"></li>
-              <li data-target="#myCarousel-0" data-slide-to="2"></li>
-              <li data-target="#myCarousel-0" data-slide-to="3"></li>
-            </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-0.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-0.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-1.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-1.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-2.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-2.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-3.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-3.jpg" alt="Chania" width="300" height="200">
                 </div>
               </div>
             </div>
           </div>
        </div>
     </div>
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
+    <div class="col-sm-3 col-xs-9">
+      <div class="panel panel-default text-center bg-black">
         <div class="panel-heading">
-          <h1>Capas</h1>
+          <h3>Capas</h3>
         </div>
         <div class="panel-body">
           <div class="panel-footer">
-            <h3>à partir de R$29,99*</h3>
+            <h4>à partir de </h4><h3>R$29,99*</h3>
             <button class="btn btn-lg">Eu quero!</button>
           </div>
 
           <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel-1" data-slide-to="1"></li>
-              <li data-target="#myCarousel-1" data-slide-to="2"></li>
-              <li data-target="#myCarousel-1" data-slide-to="3"></li>
-            </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-0.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-0.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-1.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-1.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-2.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-2.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-3.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-3.jpg" alt="Chania" width="300" height="200">
                 </div>
               </div>
             </div>
           </div>
        </div>
     </div>
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
+    <div class="col-sm-3 col-xs-9">
+      <div class="panel panel-default text-center bg-black">
         <div class="panel-heading">
-          <h1>Suportes</h1>
+          <h3>Suportes</h3>
         </div>
         <div class="panel-body">
           <div class="panel-footer">
-            <h3>à partir de R$2,99*</h3>
+            <h4>à partir de </h4><h3>R$2,99*</h3>
             <button class="btn btn-lg">Eu quero!</button>
           </div>
 
           <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel-2" data-slide-to="1"></li>
-              <li data-target="#myCarousel-2" data-slide-to="2"></li>
-              <li data-target="#myCarousel-2" data-slide-to="3"></li>
-            </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-0.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-0.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-1.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-1.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-2.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-2.jpg" alt="Chania" width="300" height="200">
                 </div>
                 <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-3.jpg" alt="Chania" width="300" height="250">
+                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-3.jpg" alt="Chania" width="300" height="200">
                 </div>
               </div>
             </div>
@@ -431,7 +417,7 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid bg-black">
   <h2 class="text-center">CONTATO</h2>
   <div class="row">
     <div class="col-sm-5">
