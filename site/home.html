@@ -33,17 +33,24 @@
   .jumbotron {
       background-color: black;
       color: yellow;
-      padding: 100px 25px;
+      padding: 200px 25px;
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
       padding: 60px 50px;
+
   }
   .bg-black {
       background-color: black;
   }
   .bg-yellow {
       background-color: yellow;
+  }
+  .glyph-orange {
+      color: #805300;
+  }
+  .glyph-black {
+      color: black;
   }
   .logo-small {
       color: black;
@@ -72,7 +79,7 @@
       color: #f4511e;
   }
   .carousel-indicators li {
-      border-color: yellow;
+      border-color: black;
   }
   .carousel-indicators li.active {
       background-color: inherit;
@@ -227,14 +234,56 @@
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
-    <div class="col-sm-7" align="justify">SOBRE</h2><br>
-      <h3>Surge na WEB a mais nova vitrine virtual BRASILEIRA de acessórios para seu gadget, a <strong>TUNING-PHONE</strong>. Aqui, você pode encontrar uma vasta gama de opções de acessórios para o seu smartphone! Oferecemos películas de vidro temperado, bumper cases, suporte de mesas, suporte para GPS, fones de ouvido, cabos carregadores e cabos USB.</H3><br>
-      <p>Mas não queremos parar por aqui, ah não! Em breve, traremos para você mais produtos para "tunar" o seu gagdet! Além de smartphones, disponibilizaremos acessórios para seu tablet e smart watch. Aguarde =)</p>
+    <div class="col-sm-7" align="justify"><h2>SOBRE</h2><br>
+      <h3>Surge na WEB a mais nova loja BRASILEIRA de gadgets para smartphones, a <strong>TUNING-PHONE</strong>. Aqui, voc&ecirc; pode encontrar uma vasta gama de acess&oacute;rios, dentre pel&iacute;culas de vidro temperado, bumper cases e suporte de mesas.</H3><br>
     </div>
     <div class="col-sm-4">
       <img src="/home/camargo/Documents/tuning-phone/images/background/smart-brasil.jpg" class="img-rounded" alt="Brasil!">
     </div>
   </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="portfolio" class="container-fluid">
+  <div class="text-center">
+    <h2>PRODUTOS</h2>
+    <h4>Visite nossa loja no MercadoShop</h4>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Pel&iacute;cula de vidro</div>
+          <div class="panel-body"><img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-0.jpg" class="img-responsive" style="width:100%" alt="pel&iacutecula"></div>
+          <div class="panel-footer">À partir de R$12,99</br>
+           <span class="glyphicon glyphicon-credit-card glyph-orange"></span>12x ou 
+           &nbsp;<span class="glyphicon glyphicon-barcode glyph-black"></span> 1x
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">Case Bumper</div>
+          <div class="panel-body"><img src="/home/camargo/Documents/tuning-phone/images/capas/capa-0.jpg" class="img-responsive" style="width:100%" alt="case"></div>
+          <div class="panel-footer">À partir de R$29,99</br>
+            <span class="glyphicon glyphicon-credit-card glyph-orange"></span>12x ou 
+           &nbsp;<span class="glyphicon glyphicon-barcode glyph-black"></span> 1x
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">Suporte de telefone</div>
+          <div class="panel-body"><img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-0.jpg" class="img-responsive" style="width:100%" alt="suporte"></div>
+          <div class="panel-footer">À partir de R$2,99</br>
+            <span class="glyphicon glyphicon-credit-card glyph-orange"></span>12x ou 
+           &nbsp;<span class="glyphicon glyphicon-barcode glyph-black"></span> 1x
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
 </div>
 
 <!-- Container (Services Section) -->
@@ -246,7 +295,7 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-refresh logo-medium"></span>
       <h3>MODERNIDADE</h3>
-      <p>Novidades em acessórios</p>
+      <p>Novidades em acess&oacute;rios</p>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-heart logo-medium"></span>
@@ -274,111 +323,10 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-lock logo-medium"></span>
       <h3>SEGURANÇA</h3>
-      <p>Aqui a compra é segura</p>
+      <p>Aqui a compra &eacute; segura</p>
     </div>
   </div>
 </div>
-
-<!-- Container (Pricing Section) -->
-<div id="portfolio" class="container-fluid">
-  <div class="text-center">
-    <h2>PRODUTOS</h2>
-    <h4>Utilize o Mercado Livre para adquirir nossos produtos</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-3 col-xs-9">
-      <div class="panel panel-default text-center bg-black">
-        <div class="panel-heading">
-          <h3>Películas de vidro</h3>
-        </div>
-        <div class="panel-body">
-          <div class="panel-footer">
-            <h4>à partir de </h4><h3>R$14,99*</h3>
-            <button class="btn btn-lg">Eu quero!</button>
-          </div>
-
-          <div id="myCarousel-0" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-0.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-1.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-2.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/peliculas/pelicula-3.jpg" alt="Chania" width="300" height="200">
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-    </div>
-    <div class="col-sm-3 col-xs-9">
-      <div class="panel panel-default text-center bg-black">
-        <div class="panel-heading">
-          <h3>Capas</h3>
-        </div>
-        <div class="panel-body">
-          <div class="panel-footer">
-            <h4>à partir de </h4><h3>R$29,99*</h3>
-            <button class="btn btn-lg">Eu quero!</button>
-          </div>
-
-          <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-0.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-1.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-2.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/capas/capa-3.jpg" alt="Chania" width="300" height="200">
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-    </div>
-    <div class="col-sm-3 col-xs-9">
-      <div class="panel panel-default text-center bg-black">
-        <div class="panel-heading">
-          <h3>Suportes</h3>
-        </div>
-        <div class="panel-body">
-          <div class="panel-footer">
-            <h4>à partir de </h4><h3>R$2,99*</h3>
-            <button class="btn btn-lg">Eu quero!</button>
-          </div>
-
-          <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-0.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-1.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-2.jpg" alt="Chania" width="300" height="200">
-                </div>
-                <div class="item">
-                  <img src="/home/camargo/Documents/tuning-phone/images/suportes/suporte-3.jpg" alt="Chania" width="300" height="200">
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-    </div>
-  </div></br>
-  *OBS: o smartphone não acompanha nenhum produto.
-
 
   <div class="text-center">
     <h2>O que nossos clientes dizem</h2>
@@ -399,7 +347,7 @@
           <h4>"A melhor de todas, adorei!"<br><span style="font-style:normal;">Suzana Aleixo</span></h4>
         </div>
         <div class="item">
-          <h4>"A entrega é rápida! Satisfeito!"<br><span style="font-style:normal;">Pedro Diniz</span></h4>
+          <h4>"A entrega &eacute; r&aacute;pida! Satisfeito!"<br><span style="font-style:normal;">Pedro Diniz</span></h4>
         </div>
       </div>
 
@@ -421,12 +369,12 @@
   <h2 class="text-center">CONTATO</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Tem alguma dúvida, crítica ou sugestão?</p>
+      <p>Tem alguma d&uacute;vida, crítica ou sugest&atilde;o?</p>
       <p><span class="glyphicon glyphicon-envelope"></span> sac@tuning-phone.com.br</p>
     </div>
     <div class="col-sm-5">
       <p>Deseja rastrear ou acompanhar alguma compra?</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> compras@tuning-phone.com.br</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> vendas@tuning-phone.com.br</p>
     </div>
   </div>
 </div>
