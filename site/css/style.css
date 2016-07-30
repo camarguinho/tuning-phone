@@ -1,0 +1,240 @@
+<style>
+  
+  body {
+      font: 400 15px Audiowide, Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h1 {
+    font-size: 40px;
+    color: white;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  .header {
+      position: relative;
+      width: 100%;
+      min-height: auto;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
+      background-image: url('/home/camargo/Documents/tuning-phone/site/images/marketing/smartphone-table.jpg');
+      text-align: center;
+      padding: 320px 25px;
+    }
+  .container-fluid {
+      padding: 30px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .bg-green {
+      background-color: #00b300;
+  }
+  .bg-silver {
+      background-color: #d9d9d9;
+  }
+  .bg-black {
+      background-color: black;
+  }
+  .bg-white {
+      color: white;
+  }
+  .bg-yellow {
+      background-color: #e6e600;
+  }
+  .glyph-orange {
+      color: #805300;
+  }
+  .glyph-black {
+      color: black;
+  }
+  .glyph-green {
+      color: green;
+  }
+  .logo-small {
+      color: black;
+      font-size: 50px;
+  }
+  .logo-medium {
+      color: black;
+      font-size: 100px;
+  }
+  .logo {
+      color: black;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .sustainability-text {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: black;
+  }
+  .carousel-indicators li.active {
+      background-color: inherit;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: black !important;
+      background-color: #F9E32D !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 10px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .linear-grad {
+      background: red; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(-90deg, white, grey); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(-90deg, white, grey); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(-90deg, white, grey); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(-90deg, white, grey); /* Standard syntax (must be last) */
+  } 
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: white !important;
+      background-color: black !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #F9E32D !important;
+  }
+  .contact-info {
+    color: black;
+  }
+  .alert {
+    font-size: 12px;
+    color: black;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  </style>
