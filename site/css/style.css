@@ -37,6 +37,8 @@
   }
   strong {
     font-family: Audiowide;
+    height: 346px;
+    width: 346px;
   }
   .text-header-1 {
     vertical-align: text-top;
