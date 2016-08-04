@@ -61,7 +61,7 @@
       background-size: cover;
       -o-background-size: cover;
       background-position: center;
-      background-image: url('/home/camargo/Documents/tuning-phone/site/images/marketing/smartphone-table-transparent.jpg');
+      background-image: url('../images/marketing/smartphone-table-transparent.jpg');
       text-align: center;
       padding: 320px 25px;
     }
