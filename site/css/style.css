@@ -226,6 +226,9 @@
       font-size: 20px;
       margin-bottom: 20px;
   }
+  .info {
+    font-size: 10px;
+  }
   .slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
@@ -269,4 +272,20 @@
         font-size: 150px;
     }
   }
+  .img-hover img {
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+  }
+  .img-hover img:hover {
+      -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  }
+
   </style>
