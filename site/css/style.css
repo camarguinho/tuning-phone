@@ -314,12 +314,16 @@
 
   .specifications-obs {
     text-align: left;
-    font-size: 9px;
+    font-size: 10px;
     color: black;
   }
 
   .specifications p {
     font-family: Audiowide;
   }
+
+  .specifications-obs a {
+    color: white;
+  }  
 
 </style>
