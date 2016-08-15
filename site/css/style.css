@@ -1,4 +1,3 @@
-<style>
   /* audiowide-regular - latin */
   @font-face {
     font-family: 'Audiowide';
@@ -13,7 +12,7 @@
          url('/home/camargo/Documents/tuning-phone/site/fonts/audiowide-v4-latin-regular.svg#Audiowide') format('svg'); /* Legacy iOS */
   }
   body {
-      font: 400 15px Montserrat, Lato, sans-serif;
+      font: 400 15px Audiowide, Montserrat, Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
   }
@@ -27,6 +26,11 @@
       color: #303030;
       font-weight: 600;
       margin-bottom: 30px;
+  }
+  h3 {
+    font-family: Montserrat, Lato, sans-serif;
+    font-size: 20px;
+    color: black;
   }
   h4 {
       font-size: 19px;
@@ -307,23 +311,19 @@
       transform:translatZ(0) scale(1.10);
   }
   .specifications {
+    font-family: Montserrat;
     text-align: left;
     font-size: 12px;
     color: black;
   }
 
   .specifications-obs {
+    font-family: Montserrat;
     text-align: left;
     font-size: 10px;
     color: black;
   }
 
-  .specifications p {
-    font-family: Audiowide;
-  }
-
   .specifications-obs a {
     color: white;
   }  
-
-</style>
