@@ -231,7 +231,8 @@
       margin-bottom: 20px;
   }
   .info {
-    font-size: 10px;
+    font-family: Montserrat, Lato, sans-serif;
+    font-size: 12px;
   }
   .slideanim {visibility:hidden;}
   .slide {
