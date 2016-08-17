@@ -189,7 +189,7 @@
   }
 
   .specifications-obs {
-    ffont-family: Montserrat, Lato, sans-serif;
+    font-family: Montserrat, Lato, sans-serif;
     text-align: left;
     font-size: 0.75em;
     color: black;
@@ -201,6 +201,7 @@
 
   .faq p{
     font-family: Montserrat, Lato, sans-serif;
+    color: #818181;
   }
 
   .faq a:link {
