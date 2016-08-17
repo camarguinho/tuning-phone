@@ -138,6 +138,7 @@
       letter-spacing: 0.25em;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+      position: fixed;
   }
   .linear-grad {
       background: red; /* For browsers that do not support gradients */
