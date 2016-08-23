@@ -51,6 +51,14 @@
     width: 346px;
   }
 
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -20px;
+    margin-left: -25px;
+  }
+
   .text-header-1 {
     vertical-align: text-top;
     font-size: 2em;
@@ -161,12 +169,11 @@
       margin-bottom: 0;
       z-index: 9999;
       border: 0;
-      font-size: 0.75em !important;
+      font-size: 0.65em !important;
       line-height: 1.42857143 !important;
-      letter-spacing: 0.25em;
+      letter-spacing: 0.10em;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
-      position: fixed;
   }
 
   .linear-grad {
@@ -302,12 +309,6 @@
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
     }
   }
 
